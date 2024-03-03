@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@oceancode/naive-ui':
-    specifier: ^1.0.56
-    version: 1.0.56(lodash@4.17.21)(pinia@2.1.7)(vue@3.3.7)
+    specifier: ^1.0.91
+    version: 1.0.91(lodash@4.17.21)(pinia@2.1.7)(vue@3.3.7)
   '@types/color':
     specifier: ^3.0.6
     version: 3.0.6
@@ -1123,8 +1123,8 @@ packages:
       fastq: 1.17.1
     dev: true
 
-  /@oceancode/core@1.0.10(mitt@3.0.1)(pinia@2.1.7)(vue@3.3.7):
-    resolution: {integrity: sha512-SkelWaMGLa/BemaPfyVyVpk9PGfGRvN+9c1iVaNZtRnfbgh4rd2rB1zZKZeKwSaDys7kRQhyszevQyk1OJGehA==, tarball: https://registry.npmmirror.com/@oceancode/core/-/core-1.0.10.tgz}
+  /@oceancode/core@1.0.19(mitt@3.0.1)(pinia@2.1.7)(vue@3.3.7):
+    resolution: {integrity: sha512-yVqaGoK9dSxUbEbkr26Z+PD9ogzDT03jPjhWu3IIWT12j5tXVasONgS6Z6pOF1N27N9Ae5hRtt07siz6ItGK1w==, tarball: https://registry.npmmirror.com/@oceancode/core/-/core-1.0.19.tgz}
     peerDependencies:
       mitt: ^3.0.1
       pinia: ^2.1.7
@@ -1136,26 +1136,26 @@ packages:
       vue: 3.3.7(typescript@5.3.3)
     dev: false
 
-  /@oceancode/framework-core@1.0.15(@oceancode/core@1.0.10)(vue@3.3.7):
+  /@oceancode/framework-core@1.0.15(@oceancode/core@1.0.19)(vue@3.3.7):
     resolution: {integrity: sha512-YDqnt++3by8CAmT3QoOiSy0V4QZArPxvHwU1J6JdhWTvVVxBc8ZeIaVhHka/jp/yiaMTBkV1aKYtZ+NgQ7Lzjw==, tarball: https://registry.npmmirror.com/@oceancode/framework-core/-/framework-core-1.0.15.tgz}
     peerDependencies:
       '@oceancode/core': ^1.0.5
       vue: ^3.0.0
     dependencies:
-      '@oceancode/core': 1.0.10(mitt@3.0.1)(pinia@2.1.7)(vue@3.3.7)
+      '@oceancode/core': 1.0.19(mitt@3.0.1)(pinia@2.1.7)(vue@3.3.7)
       sass: 1.71.1
       vue: 3.3.7(typescript@5.3.3)
       vue3-sfc-loader: 0.8.4
     dev: false
 
-  /@oceancode/naive-ui@1.0.56(lodash@4.17.21)(pinia@2.1.7)(vue@3.3.7):
-    resolution: {integrity: sha512-bi7Ezpv9joh5IDySwoXcSt9fwXHIIblugHdITVYe4qqED+1/9Ok2AokCvvJa3niGOoe9oJZU1XUD1wpouCfKwA==, tarball: https://registry.npmmirror.com/@oceancode/naive-ui/-/naive-ui-1.0.56.tgz}
+  /@oceancode/naive-ui@1.0.91(lodash@4.17.21)(pinia@2.1.7)(vue@3.3.7):
+    resolution: {integrity: sha512-IQ0Euu1sK9UjhJ0pwGMkK8gMJL+/DFAuthvTAM5SvOtQtTO7nslSv+EcH2s6nTEatd7lXT+VZGytplSb0/zdHQ==, tarball: https://registry.npmmirror.com/@oceancode/naive-ui/-/naive-ui-1.0.91.tgz}
     peerDependencies:
       vue: ^3.0.0
     dependencies:
       '@micro-zoe/micro-app': 1.0.0-rc.4
-      '@oceancode/core': 1.0.10(mitt@3.0.1)(pinia@2.1.7)(vue@3.3.7)
-      '@oceancode/framework-core': 1.0.15(@oceancode/core@1.0.10)(vue@3.3.7)
+      '@oceancode/core': 1.0.19(mitt@3.0.1)(pinia@2.1.7)(vue@3.3.7)
+      '@oceancode/framework-core': 1.0.15(@oceancode/core@1.0.19)(vue@3.3.7)
       '@vicons/antd': 0.12.0
       '@vicons/ionicons5': 0.12.0
       alasql: 4.3.0
