@@ -1,3 +1,4 @@
+export * from './UserInfoColumnOption'
 export * from './ProjectOption'
 export * from './MenuOption'
 export * from './UserLoginResponse'

@@ -15,7 +15,8 @@
     "lint:fix": "eslint --ext .js,.jsx,.ts,.tsx,.vue src --fix"
   },
   "dependencies": {
-    "@oceancode/naive-ui": "^1.0.91",
+    "@oceancode/naive-ui": "^1.0.99",
+    "@oceancode/oceancode-ui": "^1.0.0",
     "@types/color": "^3.0.6",
     "@types/crypto-js": "^4.2.2",
     "@types/keymaster": "^1.6.33",

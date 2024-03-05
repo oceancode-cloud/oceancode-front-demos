@@ -1,6 +1,6 @@
 import {
   UserBaseInfo
-} from '../../index';
+} from '../index';
 
 /**
  * UserLoginResponse
